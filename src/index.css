@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: black;
+  /* background-color: #fd2c2a; */
+  /* position: relative; */
+  color: white;
+  overflow: hidden;
+}
+canvas {
+  pointer-events: none;
+}
+span growing {
+  background-color: #fd2c2a;
+}
